@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    background-color: #000;
+    opacity: 0.9;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header ul {
+    display: flex;
+    padding-right: 10px;
+    gap: 16px ;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.ourMission {
+    width: 1200px;
+    height: 700px;
+    background: url(../images/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
+
+}
+
+.ourMission_text {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    background-color: #000;
+}
+
+.products {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products_text {
+    height: 190px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.products_images{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.product img{
+    width: 300px;
+    height: 200px;
+    gap: 10px;
+}
+
+.product2{
+    padding-left: 180px;
+}
+
+
+.locations{
+    width: 1200px;
+    height: 500px;
+    background: url(../images/img-locations-background.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.locals_pai{
+    display: flex;
+    gap: 40px;
+}
+
+.local{
+    width: 300px;
+    height: 300px;
+    padding-top: 24px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+a{
+    color: seashell;
+}
